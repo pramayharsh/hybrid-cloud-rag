@@ -1,0 +1,26 @@
+# Secrets and API Keys
+.env
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector Database (Local Index)
+# We ignore this so users build their own index from their own documents
+faiss_index/
+
+# User Documents
+# We ignore these to keep the repo clean and private
+*.pdf
+*.txt
+*.docx
+
+# OS specific files
+.DS_Store
+Thumbs.db
